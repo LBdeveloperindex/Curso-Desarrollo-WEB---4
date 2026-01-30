@@ -1,0 +1,28 @@
+En caso de tener problemas con npm, a la hora de ejecutar npm init y sale el error:
+
+npm : No se puede cargar el archivo C:\Program Files\nodejs\npm.ps1 porque la ejecución de scripts está deshabilitada en este sistema. Para obtener más información, consulta el tema 
+about_Execution_Policies en https:/go.microsoft.com/fwlink/?LinkID=135170.
+En línea: 1 Carácter: 1
++ npm -v
++ ~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+
+Se puede resolver con el comando en powershell como admin : Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+
+NPM = Node Package Manager
+
+npm install o npm i sirve para descargar los paquetes de una dependencia.
+
+npm i sass para descargar SASS
+npm i -D sass para descargar SASS como una dependencia de desarrollo
+Se puede eliminar la carpeta node_modules y volver a tenerla con el comando npm i.
+
+npm run nombreScript para ejecutar el script
+
+en el script para compilar el sass a css se puede poner la opción --watch, para que cada vez que haya un cambio el compilado sea de forrma automática.
+
+npm i --save-dev gulp para descargar gulp
+
+npm i --save-dev gulp-sass para descargar dependencia de gulp para sass
