@@ -1,3 +1,5 @@
+Para compilar gulp: npm i en la terminal.
+
 En caso de tener problemas con npm, a la hora de ejecutar npm init y sale el error:
 
 npm : No se puede cargar el archivo C:\Program Files\nodejs\npm.ps1 porque la ejecución de scripts está deshabilitada en este sistema. Para obtener más información, consulta el tema 
@@ -24,5 +26,6 @@ npm run nombreScript para ejecutar el script
 en el script para compilar el sass a css se puede poner la opción --watch, para que cada vez que haya un cambio el compilado sea de forrma automática.
 
 npm i --save-dev gulp para descargar gulp
+
 
 npm i --save-dev gulp-sass para descargar dependencia de gulp para sass
