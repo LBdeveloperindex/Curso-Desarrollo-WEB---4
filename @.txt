@@ -1,4 +1,4 @@
-Para compilar gulp: npm i en la terminal.
+Para descargar las dependencias: npm i en la terminal.
 
 En caso de tener problemas con npm, a la hora de ejecutar npm init y sale el error:
 
@@ -29,3 +29,4 @@ npm i --save-dev gulp para descargar gulp
 
 
 npm i --save-dev gulp-sass para descargar dependencia de gulp para sass
+
